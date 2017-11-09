@@ -24,3 +24,9 @@ chmod +x run.sh
 cd perl
 perl run.pl ../nasa_19950801.tsv
 ```
+
+### Python Script
+```
+cd python
+python run.py ../nasa_19950801.tsv
+```
