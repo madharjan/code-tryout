@@ -6,15 +6,15 @@ The sample time-series dataset in [nasa_19950801.tsv](nasa_19950801.tsv) comes f
 ## Find Top 10 Host or IP*
 
 ### Java
-Goto Java folder
 ```
 cd java
-```
-Compile
-```
 javac App.java
-```
-Run
-```
 java App ../nasa_19950801.tsv
+```
+
+### Bash Script
+```
+cd bash
+chmod +x run.sh
+./run.sh ../nasa_19950801.tsv
 ```

@@ -70,10 +70,10 @@ public class App
         if (i >= 10) break;
       }
     }catch(FileNotFoundException e){
-      e.printStackTrace();
+      System.out.println("File " + logFile + "  not found");
     }catch(IOException e)
     {
-      e.printStackTrace();
+      System.out.println("Error reading " + logFile);
     }finally{
       if (br != null)
       {
