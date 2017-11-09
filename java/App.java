@@ -39,16 +39,6 @@ public class App
           counterMap.put(host, new Integer(1));
         }
       }
-      Iterator iter = counterMap.entrySet().iterator();
-      /*
-      while(iter.hasNext())
-      {
-        Map.Entry entry = (Map.Entry) iter.next();
-        String host = (String) entry.getKey();
-        Integer count = (Integer) entry.getValue();
-        System.out.println(host + " " + count);
-      }
-      */
       // Sort
       List<Map.Entry> list = new LinkedList<Map.Entry>(counterMap.entrySet());
       Collections.sort(list, new Comparator<Object>(){

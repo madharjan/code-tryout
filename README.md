@@ -3,7 +3,7 @@
 ## Log File
 The sample time-series dataset in [nasa_19950801.tsv](nasa_19950801.tsv) comes from [public 1995 NASA Apache web logs](http://ita.ee.lbl.gov/html/contrib/NASA-HTTP.html).
 
-## Find Top 10 Host or IP*
+## Find Top 10 Host or IP
 
 ### Java
 ```
@@ -17,4 +17,10 @@ java App ../nasa_19950801.tsv
 cd bash
 chmod +x run.sh
 ./run.sh ../nasa_19950801.tsv
+```
+
+### Perl Script
+```
+cd perl
+perl run.pl ../nasa_19950801.tsv
 ```
